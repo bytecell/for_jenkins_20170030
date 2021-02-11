@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = for_jenkins_20170030
+SPHINXPROJ    = prac
 SOURCEDIR     = source
 BUILDDIR      = build
 

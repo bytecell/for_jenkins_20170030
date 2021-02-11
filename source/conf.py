@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# for_jenkins_20170030 documentation build configuration file, created by
-# sphinx-quickstart on Fri Feb 12 02:57:03 2021.
+# prac documentation build configuration file, created by
+# sphinx-quickstart on Fri Feb 12 03:31:39 2021.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -31,8 +31,7 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autodoc',
-        'sphinx.ext.napoleon']
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'for_jenkins_20170030'
+project = 'prac'
 copyright = '2021, Y.S. Jeong'
 author = 'Y.S. Jeong'
 
@@ -113,7 +112,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'for_jenkins_20170030doc'
+htmlhelp_basename = 'pracdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -140,7 +139,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'for_jenkins_20170030.tex', 'for\\_jenkins\\_20170030 Documentation',
+    (master_doc, 'prac.tex', 'prac Documentation',
      'Y.S. Jeong', 'manual'),
 ]
 
@@ -150,7 +149,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'for_jenkins_20170030', 'for_jenkins_20170030 Documentation',
+    (master_doc, 'prac', 'prac Documentation',
      [author], 1)
 ]
 
@@ -161,8 +160,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'for_jenkins_20170030', 'for_jenkins_20170030 Documentation',
-     author, 'for_jenkins_20170030', 'One line description of project.',
+    (master_doc, 'prac', 'prac Documentation',
+     author, 'prac', 'One line description of project.',
      'Miscellaneous'),
 ]
 
