@@ -1,6 +1,11 @@
 """Just for practicing Sphinx"""
 
 class adam:
+    """연습용 클래스"""
+    def __init__(self):
+        """생성자 함수"""
+        print('생성')
+
     def sum_two(self, a, b):
         """Compute sum of two values, and return int"""
         return a + b
@@ -8,8 +13,10 @@ class adam:
     def get_biggest(self, x):
         """Return the biggest value
     
-        Key arguments:
-        x -- list of int
+        :param x: list of int
+        :type x: list
+        :return: The biggest int value
+        :rtype: int
         """
         ret = x[0]
         for i in range(1, len(x)):
